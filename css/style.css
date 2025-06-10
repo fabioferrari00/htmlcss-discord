@@ -18,6 +18,14 @@ a {
   text-decoration: none;
 }
 
+button {
+  padding: 5px 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -155,7 +163,7 @@ a:hover {
 }
 
 .bg-lg-gray {
-  background-color: #D3D3D3;
+  background-color: #eeeeee;
 }
 
 .bg-black {
@@ -168,6 +176,10 @@ a:hover {
 
 .my-50 {
   margin: 50px auto;
+}
+
+.my-30 {
+  margin: 30px auto;
 }
 
 .mx-30 {
@@ -188,7 +200,7 @@ a:hover {
 }
 
 .center-items {
-  padding: 5px 5px;
+  padding: 10px 30px;
 }
 
 .text-right {
@@ -216,6 +228,8 @@ a:hover {
   justify-content: space-between;
 }
 
+
+
 ul {
   list-style: none;
 }
@@ -233,10 +247,6 @@ header ul li a {
   color: white;
 }
 
-header div button {
-  padding: 5px 10px;
-}
-
 .container-sm h1 {
   color: white;
   font-size: 3em;
@@ -252,4 +262,8 @@ header div button {
   padding: 15px 30px;
   font-size: 1.3em;
   font-weight: 500;
+}
+
+.container h1 {
+  font-size: 2.5em;
 }
