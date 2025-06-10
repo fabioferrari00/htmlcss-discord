@@ -7,7 +7,10 @@
 /* generals */
 header {
   padding: 10px 0;
-  background-color: lightblue;
+  background-image: url(../img/jumbo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 a {
@@ -103,6 +106,13 @@ a:hover {
 }
 
 /* utility classes */
+.c-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
 
 .bg-green {
   background-color: green;
@@ -148,6 +158,10 @@ a:hover {
   background-color: #D3D3D3;
 }
 
+.bg-black {
+  background-color: #2e2e2e;
+}
+
 .bg-marin {
   background-color: #20B3AA;
 }
@@ -156,8 +170,17 @@ a:hover {
   margin: 50px auto;
 }
 
+.mx-30 {
+  margin: auto 30px;
+}
+
+
 .py-20 {
   padding: 20px 0;
+}
+
+.py-15 {
+  padding: 15px 0;
 }
 
 .py-5 {
@@ -172,6 +195,10 @@ a:hover {
   text-align: right;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .border-dotted {
   border: 2px;
   border-style: dotted;
@@ -179,6 +206,10 @@ a:hover {
 
 .br-30 {
   border-radius: 30px;
+}
+
+.font-roboto {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .justify-content-between {
@@ -204,4 +235,21 @@ header ul li a {
 
 header div button {
   padding: 5px 10px;
+}
+
+.container-sm h1 {
+  color: white;
+  font-size: 3em;
+}
+
+.container-sm p {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.container-sm button {
+  padding: 15px 30px;
+  font-size: 1.3em;
+  font-weight: 500;
 }
