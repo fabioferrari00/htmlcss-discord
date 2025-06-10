@@ -1,0 +1,207 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* generals */
+header {
+  padding: 10px 0;
+  background-color: lightblue;
+}
+
+a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* layout classes */
+.container {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container-short {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  height: 80px;
+}
+
+.top-footer {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.bottom-footer {
+  padding-top: 20px;
+}
+
+.col-20 {
+  width: 20%;
+
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-100-foot {
+  width: 100%;
+}
+
+.col-100,
+.col-30,
+.col-70,
+.col-15,
+.col-40 {
+  min-height: 350px;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-15 {
+  width: 15%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+
+.col-15.border-dotted {
+  border: 2px white dotted;
+}
+
+.col-100-foot.bg-aquamarin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  text-transform: capitalize;
+}
+
+/* utility classes */
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-goldenrod {
+  background-color: goldenrod;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-lille {
+  background-color: #EF82ED;
+}
+
+.bg-lg-blue {
+  background-color: #1E90FF;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-aquamarin {
+  background-color: aquamarine;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-dark-pink {
+  background-color: #F08180;
+}
+
+.bg-lg-gray {
+  background-color: #D3D3D3;
+}
+
+.bg-marin {
+  background-color: #20B3AA;
+}
+
+.my-50 {
+  margin: 50px auto;
+}
+
+.py-20 {
+  padding: 20px 0;
+}
+
+.py-5 {
+  padding: 5px 0;
+}
+
+.center-items {
+  padding: 5px 5px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.border-dotted {
+  border: 2px;
+  border-style: dotted;
+}
+
+.br-30 {
+  border-radius: 30px;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  margin: 0px 15px;
+}
+
+header ul li a {
+  color: white;
+}
+
+header div button {
+  padding: 5px 10px;
+}
